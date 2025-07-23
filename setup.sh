@@ -9,3 +9,5 @@ cp ./.bashrc ~/
 cp ./.vimrc ~/
 cp ./.tmux.conf ~/
 cp -r .tmux ~/
+
+vim -c "PlugInstall" ~/.vimrc
